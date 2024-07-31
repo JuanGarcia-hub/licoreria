@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header li{
+        padding: 10px 10px;
+        display: flex;
+        background-color: #222;
+        justify-content: end;
+        align-items: end; 
+}
+
+header li a{
+
+    margin: 2em;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.1em;
+    color : #fff; 
+  }
+
+  header li a:hover{
+
+    color : yellow; 
+    transition: 12ms;
+  } 

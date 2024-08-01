@@ -38,3 +38,22 @@ header li a{
     text-align: center;
     padding: 1rem;
   }
+
+  .contenido{
+     width: 100%;
+     height: 40vw;
+     background-color: #888;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+  }
+  
+  .contenido #Primer_Anuncio{
+    width: 50rem;
+    transition: transform 0.3s ease;
+  }
+
+  .contenido #Primer_Anuncio:hover{
+   transform: scale(1.2);
+  }
